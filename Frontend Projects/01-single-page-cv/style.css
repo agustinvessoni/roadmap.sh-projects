@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
+body {
+    max-width: 55vw;
+    margin: 0 auto;
+    border: 3px solid black;
+    padding: 2rem;
+    margin-top: 15px;
     font-family: "Montserrat", sans-serif;
 }
 
-hr{
-    width: 80%;
-    background-color: black;
-    padding: 1px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+hr {
+    width: 70%;
+    margin-left: 0;
+    border: 1px solid black;
 }
 
 p, li{
@@ -17,14 +20,10 @@ p, li{
 }
 
 h3{
-    color: rgb(0, 165, 0);
+    color: rgb(50, 168, 50);
     margin-top: 25px;
 }
 
 h4{
-    color: rgb(25, 25, 255);
-}
-
-h2, h3, h4, p{
-    margin-left: 20px;
+    color: rgb(53, 53, 255);
 }
